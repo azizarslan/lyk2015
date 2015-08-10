@@ -1,0 +1,26 @@
+a[title~="deneme"],
+p {
+  color: red;
+}
+
+.division * {
+  display: block;
+  background-color: yellow;
+}
+
+.list > a {
+  color: purple;
+}
+
+.dikey-ortalama {
+  margin-top: 30px;
+}
+
+.dikey-ortalama span {
+  width: 500px;
+  height: 200px;
+  background-color: yellow;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}

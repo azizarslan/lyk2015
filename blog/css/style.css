@@ -1,0 +1,127 @@
+@import "reset.css";
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-color: #eee;
+  font-family: Tahoma;
+}
+
+.site {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.logo img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav {
+  margin-top: 20px;
+  border-top: 3px dashed #aaa;
+  border-bottom: 3px dashed #aaa;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.content {
+  width: 630px;
+  float: left;
+}
+
+.post {
+  border-top: 3px dashed #aaa;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.post:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.post .title {
+  font-size: 24px;
+}
+
+.post .title a {
+  text-decoration: none;
+  color: red;
+}
+
+.post p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sidebar {
+  width: 300px;
+  float: right;
+}
+
+.categories {
+}
+
+.categories .title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.categories ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.categories ul li {
+  margin-top: 5px;
+}
+
+.categories ul li:first-child {
+  margin-top: 15px;
+}
+
+.categories ul li a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.categories ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}

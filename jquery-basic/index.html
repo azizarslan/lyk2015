@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <title>jQuery Basic</title>
   <script src="js/jquery-1.11.3.min.js"></script>
+  <style>
+    .tooltip {
+      position: absolute;
+      background: #333;
+      padding: 5px;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <a href="#" class="menulink">Menu linki</a>
@@ -25,7 +33,26 @@
   <br>
   <br>
 
-  asdads
+  <p>deneme</p>
+
+  <br>
+  <br>
+
+  <input type="text" placeholder="Ad soyad" style="width: 400px; height: 32px; padding: 5px 10px; font-size: 14px; border: 1px solid #000;" class="forminput">
+  <p class="formverisi"></p>
+
+  <br>
+  <br>
+
+  <p class="content" style="width: 300px;">Lorem Ipsum is simply dummy <a href="#" data-tooltip="Deneme tooltip">printing and typesetting</a> industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer <a href="#" data-tooltip="Selam ben büyüdüm ve tooltip oldum!">took</a> a galley of type and scrambled it to make a type specimen book.</p>
+
+
+  <form class="person">
+    <input type="text" class="firstname" placeholder="First Name">
+    <input type="text" class="lastname" placeholder="Last Name">
+    <button>Gönder</button>
+  </form>
+
 
   <script src="js/script.js"></script>
 </body>

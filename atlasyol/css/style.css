@@ -7,7 +7,7 @@ img {
 }
 
 body {
-  background-image: url("img/body.png");
+  background-image: url("../img/body.png");
   background-repeat: repeat-x;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .header .info p {
-  background-image: url("img/tel.png");
+  background-image: url("../img/tel.png");
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 15px;
@@ -52,6 +52,14 @@ body {
 
 .header .info ul li:first-child {
   margin-left: 0;
+}
+
+.header a.hamburger {
+  width: 31px;
+  height: 20px;
+  display: none;
+  background: url("../img/hamburger.png") no-repeat;
+  margin: 10px auto 0;
 }
 
 .header .nav {
@@ -124,15 +132,15 @@ body {
 }
 
 .content .main-features .feature.creative .title {
-  background-image: url("img/home-list_01.png");
+  background-image: url("../img/home-list_01.png");
 }
 
 .content .main-features .feature.quality .title {
-  background-image: url("img/home-list_02.png");
+  background-image: url("../img/home-list_02.png");
 }
 
 .content .main-features .feature.managerial .title {
-  background-image: url("img/home-list_03.png");
+  background-image: url("../img/home-list_03.png");
 }
 
 .footer {
@@ -177,11 +185,11 @@ body {
 }
 
 .footer .info p.address {
-  background-image: url("img/footer-address.png");
+  background-image: url("../img/footer-address.png");
 }
 
 .footer .info p.tel {
-  background-image: url("img/footer-tel.png");
+  background-image: url("../img/footer-tel.png");
 }
 
 
@@ -214,6 +222,15 @@ body {
   .header .info ul li {
     float: none;
     display: inline-block;
+  }
+
+  .header a.hamburger {
+    display: block;
+  }
+
+  .header .nav {
+    margin-top: 20px;
+    display: none;
   }
 
   .header .nav ul li {

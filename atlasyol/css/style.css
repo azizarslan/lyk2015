@@ -194,6 +194,12 @@ body {
 
 
 
+@media (min-width: 992px) {
+  .nav {
+    display: block !important;
+  }
+}
+
 @media (max-width: 992px) {
   .site {
     width: 100%;
